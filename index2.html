@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Frame Animation GIFs</title>
+<style>
+    .gif-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .gif-container img {
+        width: 200px; /* Adjust the width as needed */
+        height: auto;
+        opacity: 0; /* Initially hide the images */
+        transition: opacity 0.3s ease; /* Smooth transition for opacity */
+    }
+    .gif-container img:hover {
+        opacity: 1; /* Reveal image on hover */
+    }
+</style>
+</head>
+<body>
+
+<div class="gif-container">
+    <img id="O_FOR_OUCH" src="images/O-FOR-OUCH.gif" width="1000" height="1000" alt="">
+    <img src="images/U-FOR-OUCH.gif" width="1000" height="1000" alt="">
+    <img src="images/C-FOR-OUCH.gif" width="1000" height="1000" alt="">
+    <img src="images/H-FOR-OUCH.gif" width="1000" height="1000" alt="">
+</div>
+
+</body>
+</html>
